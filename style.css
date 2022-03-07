@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    text-decoration: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #eceff4;
+    background-color: #2e3440;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #eceff4;
+}
+h2{
+    color: #e5e9f0;
+}
+h1 sub{
+    color: #e5e9f0;
+    font-size: 30px;
+    vertical-align: baseline;
+}
+img{
+    border-radius: 50%;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blocklist > li{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.blocklist > li > div{
+    flex-grow: 1;
+}
+.blocklist > li > img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.projectBoxes li{
+    float: left;
+    text-align: center;
+    height: 400;
+    width: 400;
+    background-color: #3b4252;
+    border-width: 5px;
+    border-top-width: 20px;
+    border-color: #4c566a;
+    padding: 20px;
+    margin: 10px;
+}
+    
+
+.projectBoxes li a {
+    text-align: center;
+    height: 400;
+    width: 400;
+    background-color: #3b4252;
+    border-width: 5px;
+    border-top-width: 20px;
+    border-color: #4c566a;
+    padding: 20px;
+}
+.projectBoxes ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
