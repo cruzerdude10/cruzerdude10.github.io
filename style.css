@@ -35,51 +35,38 @@ img{
     border-radius: 50%;
 }
 .hero{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.blocklist > li{
+.submenu{
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    align-self: center;
+    align-content: center;
+    width: 1000px;
+    height: 340px;
+    background-color: #4c566a;
+    margin: auto;
 }
-.blocklist > li > div{
-    flex-grow: 1;
-}
-.blocklist > li > img{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
-.projectBoxes li{
-    float: left;
-    text-align: center;
-    height: 400;
-    width: 400;
-    background-color: #3b4252;
-    border-width: 5px;
-    border-top-width: 20px;
-    border-color: #4c566a;
-    padding: 20px;
-    margin: 10px;
-}
-    
 
-.projectBoxes li a {
-    text-align: center;
-    height: 400;
-    width: 400;
-    background-color: #3b4252;
-    border-width: 5px;
-    border-top-width: 20px;
-    border-color: #4c566a;
-    padding: 20px;
+
+.projects-flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+    height: auto;
+    background-color: #8FBCBB;
+    margin: auto;
+
 }
-.projectBoxes ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.projects{
+    height: 300px;
+    width: 260px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #4c566a;
 }
